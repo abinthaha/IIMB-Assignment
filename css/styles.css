@@ -1,6 +1,12 @@
 @font-face {
   font-family: calibri;
   src: url(/fonts/calibri.ttf); }
+@font-face {
+  font-family: RobotoSlab-Bold;
+  src: url(/fonts/RobotoSlab-Bold.ttf); }
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(/fonts/OpenSans-Regular.ttf); }
 header #other_page_links {
   display: inline-block;
   float: right;
@@ -59,21 +65,43 @@ header .top_tabs {
 .slider {
   display: block;
   width: 100%;
-  height: 400px; }
+  height: 450px; }
   .slider .text_part {
     display: inline-block;
     width: 40%;
+    float: left;
     height: 100%;
     background: radial-gradient(farthest-side at 60% 55%, #0c91bb, #0d6eb4); }
-    .slider .text_part .arrows li {
-      width: 30px;
-      display: inline-block;
-      height: 30px;
-      cursor: pointer;
-      background-image: url("/images/banner_navigation.png"); }
-      .slider .text_part .arrows li:nth-child(2) {
-        background-position: 100%; }
-      .slider .text_part .arrows li:hover {
-        opacity: 0.7; }
+    .slider .text_part h2 {
+      font-family: RobotoSlab-Bold;
+      font-size: 34px;
+      color: #fefefe;
+      padding: 2% 4%;
+      text-shadow: 0px 2px #333; }
+    .slider .text_part p, .slider .text_part a {
+      font-family: OpenSans-Regular;
+      font-size: 16px;
+      color: #fefefe;
+      padding: 1% 4%; }
+    .slider .text_part .arrows {
+      margin-top: 10%; }
+      .slider .text_part .arrows li {
+        width: 30px;
+        display: inline-block;
+        height: 30px;
+        cursor: pointer;
+        background-image: url("/images/banner_navigation.png"); }
+        .slider .text_part .arrows li:nth-child(2) {
+          background-position: 100%; }
+        .slider .text_part .arrows li:hover {
+          opacity: 0.7; }
+  .slider .img_part {
+    display: inline-block;
+    height: 450px;
+    width: 60%;
+    background-image: url("/images/DSC_0266.jpeg");
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat; }
 
 /*# sourceMappingURL=styles.css.map */
