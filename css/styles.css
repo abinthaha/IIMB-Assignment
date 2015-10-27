@@ -1,5 +1,5 @@
 @font-face {
-  font-family: calibri;
+  font-family: Calibri-Regular;
   src: url(/fonts/calibri.ttf); }
 @font-face {
   font-family: RobotoSlab-Bold;
@@ -7,10 +7,16 @@
 @font-face {
   font-family: OpenSans-Regular;
   src: url(/fonts/OpenSans-Regular.ttf); }
+@font-face {
+  font-family: Georgia-Italic;
+  src: url(/fonts/georgiai.ttf); }
+@font-face {
+  font-family: Calibri-Italic;
+  src: url(/fonts/calibrii.ttf); }
 header #other_page_links {
   display: inline-block;
   float: right;
-  font-family: calibri;
+  font-family: Calibri-Regular;
   list-style-type: none; }
   header #other_page_links li {
     display: inline-block; }
@@ -50,7 +56,7 @@ header .top_tabs {
   padding: 0px;
   background: linear-gradient(#777, #111); }
   header .top_tabs li {
-    font-family: calibri;
+    font-family: Calibri-Regular;
     font-size: 16px;
     height: 50px;
     line-height: 3.5;
@@ -103,5 +109,38 @@ header .top_tabs {
     background-position: center;
     background-size: 150%;
     background-repeat: no-repeat; }
+
+main .news_events_features .news {
+  padding-left: 1%;
+  display: inline-block;
+  width: 32%; }
+  main .news_events_features .news h3 {
+    font-family: Calibri-Regular;
+    font-size: 27px;
+    color: #191b1b; }
+  main .news_events_features .news .detailed_news .date {
+    font-family: Georgia-Italic;
+    font-size: 14px;
+    color: #888; }
+  main .news_events_features .news .detailed_news .details {
+    font-family: Calibri-Italic;
+    font-size: 15px;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0px;
+    color: #555; }
+    main .news_events_features .news .detailed_news .details li {
+      padding: 15px 0px;
+      border-bottom: 1px solid #DDD; }
+  main .news_events_features .news .view_more {
+    text-align: right;
+    font-family: Calibri-Italic;
+    font-size: 14px; }
+    main .news_events_features .news .view_more a {
+      padding-left: 10px;
+      float: right;
+      color: #ff6c00; }
+  main .news_events_features .news .present_image {
+    width: 98%; }
 
 /*# sourceMappingURL=styles.css.map */
