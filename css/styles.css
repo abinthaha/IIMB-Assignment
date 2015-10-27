@@ -13,6 +13,12 @@
 @font-face {
   font-family: Calibri-Italic;
   src: url(/fonts/calibrii.ttf); }
+@font-face {
+  font-family: Georgia-Bold-Italic;
+  src: url(/fonts/georgiaz.ttf); }
+@font-face {
+  font-family: Helvetica-Neul;
+  src: url(/fonts/helvetica-neue1.ttf); }
 header #other_page_links {
   display: inline-block;
   float: right;
@@ -130,8 +136,9 @@ main .news_events_features .news {
     margin: 0px;
     color: #555; }
     main .news_events_features .news .detailed_news .details li {
-      padding: 15px 0px;
-      border-bottom: 1px solid #DDD; }
+      padding: 15px 0px; }
+      main .news_events_features .news .detailed_news .details li:not(:first-child) {
+        border-top: 1px solid #DDD; }
   main .news_events_features .news .view_more {
     text-align: right;
     font-family: Calibri-Italic;
@@ -139,8 +146,52 @@ main .news_events_features .news {
     main .news_events_features .news .view_more a {
       padding-left: 10px;
       float: right;
+      margin-right: 5%;
       color: #ff6c00; }
   main .news_events_features .news .present_image {
     width: 98%; }
+main #testimonials {
+  background-color: #2971EC; }
+  main #testimonials .alert_items li {
+    background-color: #23acff; }
+main .alert_videos section {
+  width: 30%;
+  padding: 1%;
+  background-color: #23acff;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 1%;
+  box-shadow: 1px 0px 10px 1px #333; }
+  main .alert_videos section .head {
+    font-family: Calibri-Regular;
+    font-size: 27px;
+    color: #fff;
+    text-shadow: 1px 1px #666; }
+  main .alert_videos section .alert_items {
+    list-style-type: none;
+    padding: 5px; }
+    main .alert_videos section .alert_items li {
+      background-color: #156ea1;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      box-shadow: inset 2px 2px 10px 1px #333; }
+    main .alert_videos section .alert_items .img_part_alert {
+      display: inline-block;
+      width: 30%; }
+      main .alert_videos section .alert_items .img_part_alert img {
+        width: 100%; }
+    main .alert_videos section .alert_items .text_part_alert {
+      width: 65%;
+      display: inline-block;
+      vertical-align: top; }
+      main .alert_videos section .alert_items .text_part_alert .date {
+        margin-top: 10px;
+        font-family: Georgia-Bold-Italic;
+        font-size: 14px;
+        color: #fcfee9; }
+      main .alert_videos section .alert_items .text_part_alert .descr {
+        font-family: Helvetica-Neul;
+        font-size: 12px;
+        color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */
