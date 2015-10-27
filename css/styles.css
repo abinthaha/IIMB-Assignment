@@ -1,3 +1,43 @@
+@font-face {
+  font-family: calibri;
+  src: url(/fonts/calibri.ttf); }
+body {
+  padding: 10px; }
 
+header #other_page_links {
+  display: inline-block;
+  float: right;
+  font-family: calibri;
+  list-style-type: none; }
+  header #other_page_links li {
+    display: inline-block; }
+    header #other_page_links li ul {
+      padding: 0px;
+      margin: 0px; }
+  header #other_page_links .social_links li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("/images/socialIcon_top.png"); }
+    header #other_page_links .social_links li:nth-child(2) {
+      background-position-x: 35%; }
+    header #other_page_links .social_links li:nth-child(3) {
+      background-position-x: 67%; }
+    header #other_page_links .social_links li:nth-child(4) {
+      background-position-x: 100%; }
+    header #other_page_links .social_links li:hover {
+      background-position-y: 100%; }
+  header #other_page_links .page_links {
+    position: relative;
+    top: -10px; }
+    header #other_page_links .page_links li {
+      font-weight: bold;
+      padding: 0px 5px; }
+      header #other_page_links .page_links li:not(:first-child) {
+        border-left: 1px solid #BBB; }
+  header #other_page_links a {
+    color: #686868;
+    font-size: 12px;
+    text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */
